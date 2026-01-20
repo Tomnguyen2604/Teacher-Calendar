@@ -1,0 +1,27 @@
+{
+  "name": "school-calendar-exchange-server",
+  "version": "1.0.0",
+  "description": "School Calendar Exchange - GraphQL backend for managing school events",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["graphql", "school-calendar", "events", "apollo-server"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.14.3",
+    "ws": "^8.16.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "better-sqlite3": "^11.0.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  }
+}
